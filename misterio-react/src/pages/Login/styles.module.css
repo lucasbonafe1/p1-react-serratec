@@ -1,0 +1,153 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 50px;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 3%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.gmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 250px;
+  height: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.gmail img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.apple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 250px;
+  height: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.apple img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.orContainer {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.orLine {
+  flex: 1;
+  height: 1px;
+  width: 30%;
+  background-color: #838383;
+}
+
+.orText {
+  padding: 0 10px;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.email{
+  height: 20px;
+}
+.password{
+  height: 20px;
+}
+
+.button {
+  margin-top: 2.5rem;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #d6d6d6;
+  transition: 0.1s;
+}
+
+.esqueceuSenha{
+    margin-top: 1.5rem;
+    background-color: #070707;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.esqueceuSenha:hover{
+  transition: 0.1s;
+  background-color: #1d1c1c;
+
+}
+
+.cadastro {
+  margin-top: 1rem;
+  align-items: center;
+  display: flex;
+  color: #777777;
+}
+
+.cadastro a {
+  margin: 0 6px;
+  text-decoration: none;
+}
